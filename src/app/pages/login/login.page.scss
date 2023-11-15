@@ -1,0 +1,15 @@
+
+ion-content{
+    --background: url()
+     0 0/100% 100% no-repeat;
+}
+.login{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ion-input{
+    width: 15rem;
+}

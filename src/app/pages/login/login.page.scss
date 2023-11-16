@@ -1,7 +1,10 @@
-.login{
+.container{
     background: url(LoginLogo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
+}
+.login{
     height: 100%;
     display: flex;
     flex-direction: column;

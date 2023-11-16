@@ -30,4 +30,8 @@ export const routes: Routes = [
     path: 'social-media',
     loadComponent: () => import('./pages/social-media/social-media.page').then( m => m.SocialMediaPage)
   },
+  {
+    path: 'search',
+    loadComponent: () => import('./pages/search/search.page').then( m => m.SearchPage)
+  },
 ];

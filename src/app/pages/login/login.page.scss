@@ -3,9 +3,19 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in{
+    margin-top: 65px;
 }
 .login{
-    height: 100%;
+    background-color: #00000010;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;

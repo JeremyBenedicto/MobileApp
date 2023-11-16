@@ -9,12 +9,24 @@ import { IonicModule } from '@ionic/angular';
   styleUrls: ['./loader.page.scss'],
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule]
+
 })
 export class LoaderPage implements OnInit {
+  public progress = 0;
+  constructor() { 
+    setInterval(() => {
+      this.progress += 0.01;
 
-  constructor() { }
-
-  ngOnInit() {
+      // Reset the progress bar when it reaches 100%
+      // to continuously show the demo
+      if (this.progress > 1) {
+        setTimeout(() => {
+          this.progress = 0;
+        }, 6000);
+      }
+    }, 50);
   }
-
-}
+  ngOnInit(): void {
+      
+  }
+  }

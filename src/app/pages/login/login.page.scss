@@ -1,8 +1,20 @@
-.login{
+.container{
     background: url(LoginLogo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in{
+    margin-top: 45px;
+}
+.login{
+    background-color: #00000010;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    padding: 30px 30px 30px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,4 +25,7 @@ ion-input{
 }
 .reset{
     color: black;
+}
+.log{
+    width: 8rem;
 }

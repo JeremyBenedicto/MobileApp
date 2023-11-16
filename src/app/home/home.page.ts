@@ -7,7 +7,7 @@ import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/stan
   styleUrls: ['home.page.scss'],
   standalone: true,
   schemas : [CUSTOM_ELEMENTS_SCHEMA],
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent],
+  imports: [IonHeader, IonToolbar, IonTitle, IonContent]
 })
 export class HomePage {
   constructor() {}

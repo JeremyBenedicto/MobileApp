@@ -1,9 +1,12 @@
 @import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
-
-
-
-
+.bod{
+  background: url(backl.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
 section{
+    margin-top: 50rem;
     position: absolute;
     width: 100%;
     align-items: center;

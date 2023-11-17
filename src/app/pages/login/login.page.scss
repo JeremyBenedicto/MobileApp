@@ -1,11 +1,16 @@
-.container{
+@import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+.bak{
     background: url(LoginLogo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+}
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 .in{
     margin-top: 45px;
